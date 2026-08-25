@@ -1,15 +1,14 @@
 # Technical Writer Portfolio
 
-A static HTML/CSS portfolio designed for GitHub Pages.
+A responsive, GitHub Pages-ready portfolio built with plain HTML and CSS.
 
-## Customize
+## Quick setup
 
-1. Replace `Your Name` with your name.
-2. Update the About section.
-3. Replace the sample projects with your real work.
-4. Add `resume.pdf` to the root if you want the résumé button to work.
-5. Replace the email, GitHub, and LinkedIn links.
-6. Commit the files to your GitHub repository.
-7. In **Settings → Pages**, choose **Deploy from a branch**, select `main` and `/ (root)`, then save.
+1. Replace `Your Name`, email, GitHub username, and LinkedIn username in `index.html`.
+2. Replace the photo placeholder with your image.
+3. Add your real résumé as `resume.pdf`.
+4. Review the four writing samples in `/samples/`.
+5. Create a GitHub repository and upload the files.
+6. In GitHub, open **Settings → Pages → Deploy from a branch**, select the main branch and `/ (root)`, then save.
 
-GitHub Pages can publish static files from a repository. See the official GitHub Pages documentation for current setup instructions.
+No build tools or frameworks are required.
