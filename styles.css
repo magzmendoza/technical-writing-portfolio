@@ -101,4 +101,17 @@ footer{padding:28px 0;background:#3c302b;color:#eadfd7;font-size:11px}.container
 }
 @media(max-width:560px){
  .container{width:min(calc(100% - 28px),var(--max))}.section{padding:75px 0}h1{font-size:45px}.mini-proof{gap:12px;flex-wrap:wrap}.mini-proof span+span{padding-left:12px}.skills-grid,.samples-grid{grid-template-columns:1fr}.sample-card{min-height:210px}.contact-box{padding:30px 22px}footer .container{flex-direction:column}
+media (max-width: 850px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .about-photo {
+    order: 2;
+  }
+
+  .about-photo img {
+    max-width: 280px;
+  }
 }
